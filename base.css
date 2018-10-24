@@ -1,0 +1,22 @@
+@charset "uft-8";
+/* CSS Dcument */
+
+/* 初期化 */
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  background: url(http://aizunoinu.hannnari.com/bg.jpg);
+}
+
+/* リストマーカーを非表示 */
+ul,ol{
+  list-style-type:none;
+}

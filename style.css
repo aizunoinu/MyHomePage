@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* html全体の設定を決定する */
+
+#wrap{
+  width: 910px;
+  height: 1000px; /* このサイズを変更するとスクロールする量を設定できる */
+  border:  #f0e68c 5px solid;
+  background-color: #f0e68c;
+  margin: 10px auto; /* margin 上下 左右 */
+  /* padding: 10px; */ /* padding 上下　左右 */
+}
+
+
+/* ヘッダーエリア
+---------------------------*/
+#header{
+  width: 870px;
+  height: 300px;
+  text-align: center;
+  background-color: #b0c4de;
+  margin: 10px 20px;
+}
+
+
+h1{
+  font-size: 450%;
+  height: 90px;
+  color: #fff;
+  text-align: center;
+}
+
+.intro{
+  width: 300px;
+  height: 190px;
+  font-size: 200%;
+  text-align: center;
+  /* border: #f00 1px solid; */
+  position: relative;
+  top: 20px;
+  left: 130px;
+  float: left;
+
+}
+
+#icon{
+  width: 200px;
+  height: 200px;
+  float: left;
+  position: relative;
+  top: 10px;
+  left: 170px;
+}
+
+dl dt, dl p{
+  font-weight: bold;
+}
+
+dt{
+  float: left;
+}
+
+/* --------ナビゲーションの設定 ---------- */
+
+#gnav{
+  width: 870px;
+  margin: 0 20px;
+  background: #f0e68c;
+}
+
+#gnav ul{
+  overflow:hidden;
+}
+
+
+#gnav li{
+  float: left;
+}
+
+/* #gnav a{
+  display: block;
+  width: 287px;
+  /* background-color: #0f0; */
+  /* border-right: #f0e68c 2px solid; */
+/*  text-align: center;
+  font-size: 250%;
+  opacity: 1;
+  filter: alpha(opacity=100);
+} */
+
+#gnav a{
+  display: block;
+  /* background-color: #0f0; */
+  /* border-right: #f0e68c 2px solid; */
+  text-align: center;
+  font-size: 250%;
+  background: #00c4ab;
+}
+
+#gnav a:hover{
+  opacity: 0.7;
+  background: #00c4ab;
+}
+
+#gnav .gnav01{
+  width: 433px;
+  margin-right: 5px;
+}
+#gnav .gnav02 a{
+  width: 432px;
+}
+
+/* #gnav .gnav02 a{
+  width: 286px;
+  border-left: #f0e68c 5px solid;
+} */
+
+#gnav .gnav03 a{
+  border-left: #f0e68c 5px solid;
+}
+
+/* MainPanelのコンテンツエリアの設定(他には反映されない) ---------------------------*/
+#contents{
+  width: 870px;
+  height: 610px;
+  margin: 10px auto;
+  background-color: #7fffd4;
+  margin: 10px 20px;
+}
+
+h2{
+  font-size: 300%;
+  text-align: center;
+  color: #f00;
+}
+
+/* footer編集 */
+
+#footer{
+  padding:10px 0;
+  background:#e6e6e6;
+}
+
+#footer .inner{
+  width:940px;
+  margin:0 auto;
+}
+
+#footer li{
+  display:inline;
+}
+
+#footer a{
+  padding:0 10px;
+  color:#666;
+  text-decoration:none;
+}
+
+#footer a:hover{
+  text-decoration:underline;
+}
