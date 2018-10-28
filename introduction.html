@@ -12,9 +12,28 @@
         font-size: 200%;
       }
 
-      .lang{
-        float: left;
-        left: 100px;
+      h2{
+        font-size: 200%;
+        text-align: center;
+        color: #f00;
+      }
+
+      table{
+        border: #000 2px solid;
+        background-color: white;
+      }
+
+      th{
+        border: #000 1px solid; /*境界線*/
+        font-size: 70%;
+        background-color: #EEEEEE;
+      }
+
+      td{
+        border: #000 1px solid; /*境界線*/
+        padding: 5px 20px; /*境界線の内側の余白を 上下・左右の順番に指定する*/
+        font-size: 70%;
+        margin-bottom: 0; /*境界線の外側の余白*/
       }
 
       dl{
@@ -24,6 +43,7 @@
   </head>
 
   <body>
+    <h2><strong>プロフィール</strong></h2>
     <section id="inrto1">
       <h3>■出身</h3>
       <dl>
@@ -33,18 +53,19 @@
 
     <section id="inrto2">
       <h3>■言語</h3>
-      <dl>
-        <dt class="lang">Java：</dt><dd>6年</dd>
-        <dt class="lang">C言語：</dt><dd>4年</dd>
-        <dt class="lang">C++：</dt><dd>2年</dd>
-        <dt class="lang">COBOL：</dt><dd>2年</dd>
-        <dt class="lang">YPS/COBOL：</dt><dd>2年</dd>
-        <dt class="lang">HTML5：</dt><dd>2年</dd>
-        <dt class="lang">CSS3：</dt><dd>2年</dd>
-        <dt class="lang">PHP：</dt><dd>1年</dd>
-        <dt class="lang">Perl：</dt><dd>1年</dd>
-        <dt class="lang">Ruby：</dt><dd>1年</dd>
-      </dl>
+      <table>
+        <th>言語</th><th>年数</th>
+        <tr><td>Java</td><td>6年</td></tr>
+        <tr><td>C言語</td><td>4年</td></tr>
+        <tr><td>C++</td><td>2年</td></tr>
+        <tr><td>COBOL</td><td>2年</td></tr>
+        <tr><td>YPS/COBOL</td><td>2年</td></tr>
+        <tr><td>HTML5</td><td>2年</td></tr>
+        <tr><td>CSS3</td><td>2年</td></tr>
+        <tr><td>PHP</td><td>1年</td></tr>
+        <tr><td>Perl</td><td>1年</td></tr>
+        <tr><td>Ruby</td><td>1年</td></tr>
+      </table>
     </section>
 
   </body>
